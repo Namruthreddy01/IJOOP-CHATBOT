@@ -78,6 +78,6 @@ Deploy on a cloud platform (Heroku / Render / Vercel)
 
 👨‍💻 Author
 
-<Your Name>
+< NAMRUTH REDDY P>
 📧 namruthreddy01@gmail.com
 🌐 Namruth Reddy P
