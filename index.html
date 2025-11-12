@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python ChatBot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="title">
+                    <h1>IJOOP ChatBot</h1>
+                    <p>Created by Namruth </p>
+                </div>
+                <div class="status">
+                    <span class="status-indicator online"></span>
+                    <span class="status-text">Online</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="chat-messages" id="chat-messages">
+            <div class="message bot-message">
+                <div class="avatar bot-avatar">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="message-content">
+                    <span>Hello! I'm your friendly chatbot. How can I help you today?</span>
+                </div>
+                <div class="timestamp">Just now</div>
+            </div>
+        </div>
+        
+        <div class="chat-input-container">
+            <div class="input-tools">
+                <button class="tool-btn" id="clear-btn" title="Clear chat">
+                    <i class="fas fa-trash"></i>
+                </button>
+                <button class="tool-btn" id="suggestion-btn" title="Show suggestions">
+                    <i class="fas fa-lightbulb"></i>
+                </button>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="user-input" placeholder="Type your message here...">
+                <button id="send-btn">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+            <div class="suggestions" id="suggestions">
+                <div class="suggestion-item">Hello</div>
+                <div class="suggestion-item">How are you?</div>
+                <div class="suggestion-item">Tell me a joke</div>
+                <div class="suggestion-item">5 + 3</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
