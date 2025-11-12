@@ -28,8 +28,8 @@ Version Control	Git & GitHub
 
 1️⃣ Clone the repository
 
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
+git clone https://github.com/<Namruthreddy01>/<IJOOP CHATBOT>.git
+cd <IJOOP CHATBOT>
 2️⃣ Install dependencies
 
 Make sure you have Python installed, then install Flask:
